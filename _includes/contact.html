@@ -22,7 +22,7 @@
   <div class="form-group row mb-0">
     <label class="col-sm-3 col-form-label text-sm-right text-xs-left">{{ contact.location_label.[page.lang] }}:</label>
     <div class="col-sm-9">
-      <p class="form-control-static"><a href="tel:{{ contact.location[page.lang] | replace : ' ', '' }}">{{ contact.location[page.lang] }}</a></p>
+      <p class="form-control-static"><a href="{{ contact.location[page.lang] | replace : ' ', '' }}">{{ contact.location[page.lang] }}</a></p>
     </div>
   </div>
 
