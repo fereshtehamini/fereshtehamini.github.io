@@ -6,20 +6,272 @@
 
     { "key"       : "insituhealthfitness",
       "title"     : "Data Representations for In-Situ Exploration of Health and Fitness Data",
-      "date"      : "2012-11-01",
-      "authors"   : [ "Daniel Müller (Limberger)", "Juri Engel", "Jürgen Döllner" ],
-      "published" : "Proceedings of the International Workshop on Vision, Modeling, and Visualization",
-      
-      "abstract"  : "Wearable devices that collect and generate masses of health related data, such as number of steps taken in a day and heart-rate have seen widespread adoption among general consumers. The wearers of such devices need to interpret the data being generated to ensure they meet their physical activity goals. Little is currently known about how users of such devices explore such data and the corresponding visual representations, in-situ, i.e. during the course of their physical activity. Through a series of interview sessions with users of health and fitness data, i.e., quantified-selfers, we gained an understanding of how they benefit from in-situ data exploration. Our findings reveal the wide number of in-situ tasks, data types, and requirements for designing data representations that support immediate reflection on data being collected. We further solicited the aid of professional designers to sketch visual representations for carrying out the necessary in-situ tasks identified by our users. From these exploratory studies, we derive broader implications for the design of data representations supporting in-situ exploration.",
+      "year"      : "2017",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Khalad Hasan",
+		  "Andrea Bunt",
+		  "Pourang Irani"
+		],
+      "published" : "ACM Pervasive Computing Technologies for Healthcare (PervasiveHealth)",
+      "level": "phd",
+      "abstract"  : "Wearable devices that collect and generate masses of health related data, 
+	  such as number of steps taken in a day and heart-rate have seen widespread adoption among 
+	  general consumers. The wearers of such devices need to interpret the data being generated 
+	  to ensure they meet their physical activity goals. Little is currently known about how 
+	  users of such devices explore such data and the corresponding visual representations, 
+	  in-situ, i.e. during the course of their physical activity. Through a series of interview 
+	  sessions with users of health and fitness data, i.e., quantified-selfers, we gained an 
+	  understanding of how they benefit from in-situ data exploration. Our findings reveal the 
+	  wide number of in-situ tasks, data types, and requirements for designing data representations 
+	  that support immediate reflection on data being collected. We further solicited the aid of 
+	  professional designers to sketch visual representations for carrying out the necessary in-situ 
+	  tasks identified by our users. From these exploratory studies, we derive broader implications 
+	  for the design of data representations supporting in-situ exploration.",
 
       "thumbnail" : "insituhealthfitness.png",
       "downloads" : [
         { "href"  : "/assets/insituhealthfitness.pdf",
-          "desc"  : "PDF"
+          "desc"  : "Paper"
         },
       ],
     },
+    { "key"       : "datastorytellingevaluation",
+      "title"     : "Book chapter: Evaluating Data-Driven Stories and Storytelling Tools",
+      "year"      : "2017",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Mathew Brehmer",
+		  "Gordon Boldman",
+		  "Christina Elmer",
+		  "Benjamin Wiederkehr"
+		],
+      "published" : "Chapter to appear in Data-Driven Storytelling, a forthcoming book edited by Sheelagh Carpendale, Nicholas Diakopoulos, Christophe Hurter, and Nathalie Henry Riche",
+      "level": "phd",
+      "abstract"  : "The study of data-driven storytelling requires specific guidelines, metrics, 
+	  and methodologies reflecting their different complex aspects. Evaluation is not only essential 
+	  for researchers to learn about the quality of data-driven storytelling but also for editorial 
+	  rooms in media and enterprises to justify the required resources the gathering, analyzing and 
+	  presentation of data. The following framework takes the different perspectives of author, audience 
+	  and publisher and their correspondent criteria into account. Furthermore it connects them with 
+	  the methods and metrics to provide a roadmap for what and how to measure if these resulting 
+	  data-driven stories met the goals. In addition, we explore and define the constraints which 
+	  might limit the metrics and methods available making it difficult to reach the goals. 
+	  We conclude with a graphic that gives an overview how these entities are linked to each other.",
 
+      "thumbnail" : "datastorytellingevaluation.png",
+      "downloads" : [
+        { "href"  : "http://drops.dagstuhl.de/opus/volltexte/2016/5821/pdf/dagrep_v006_i002_p001_s16061.pdf",
+          "desc"  : "Report"
+        },
+      ],
+    },	
+    { "key"       : "proxemiclens",
+      "title"     : "Supporting Visual Exploration for Multiple Users in Large Display Environments",
+      "year"      : "2016",
+      "authors"   : [
+		  "Sriram Karthik Badam",
+		  "Fereshteh Amini",
+		  "Niklas Elmqvist",
+		  "Pourang Irani"
+		],
+      "published" : "IEEE Visual Analytics Science and Technology (VAST)",
+      "level": "phd",
+      "abstract"  : "We present a design space exploration of interaction techniques for
+		supporting multiple collaborators exploring data on a shared large
+		display. Our proposed solution is based on users controlling individual
+		lenses using both explicit gestures as well as proxemics:
+		the spatial relations between people and physical artifacts such as
+		their distance, orientation, and movement. We discuss different design
+		considerations for implicit and explicit interactions through the
+		lens, and evaluate the user experience to find a balance between the
+		implicit and explicit interaction styles. Our findings indicate that
+		users favor implicit interaction through proxemics for navigation
+		and collaboration, but prefer using explicit mid-air gestures to perform
+		actions that are perceived to be direct, such as terminating
+		a lens composition. Based on these results, we propose a hybrid
+		technique utilizing both proxemics and mid-air gestures, along with
+		examples applying this technique to other datasets. Finally, we performed
+		a usability evaluation of the hybrid technique and observed
+		user performance improvements in the presence of both implicit
+		and explicit interaction styles.",
+
+      "thumbnail" : "proxemiclens.png",
+      "downloads" : [
+		{ "href"  : "/assets/multiuser.pdf",
+          "desc"  : "Paper"
+        },
+		{ "href"  : "http://hcil.umd.edu/bridging-physical-and-digital-worlds/",
+          "desc"  : "Blog Post"
+        },
+		{ "href"  : "https://www.youtube.com/watch?v=xd7G_q8nocc",
+          "desc"  : "Video"
+        }
+      ],
+    },
+    { "key"       : "dataclips",
+      "title"     : "Authoring Data-Driven Videos with DataClips",
+      "year"      : "2016",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Nathalie Henry Riche",
+		  "Bongshin Lee",
+		  "Andrés Monroy-Hernández",
+		  "Pourang Irani"
+		],
+      "published" : "IEEE transactions on visualization and computer graphics (InfoVis)",
+      "level": "phd",
+      "abstract"  : "Data videos, or short data-driven motion graphics, are an increasingly popular medium for storytelling. However, creating
+		data videos is difficult as it involves pulling together a unique combination of skills. We introduce DataClips, an authoring tool aimed
+		at lowering the barriers to crafting data videos. DataClips allows non-experts to assemble data-driven “clips” together to form longer
+		sequences. We constructed the library of data clips by analyzing the composition of over 70 data videos produced by reputable
+		sources such as The New York Times and The Guardian. We demonstrate that DataClips can reproduce over 90% of our data videos
+		corpus. We also report on a qualitative study comparing the authoring process and outcome achieved by (1) non-experts using
+		DataClips, and (2) experts using Adobe Illustrator and After Effects to create data-driven clips. Results indicated that non-experts are
+		able to learn and use DataClips with a short training period. In the span of one hour, they were able to produce more videos than
+		experts using a professional editing tool, and their clips were rated similarly by an independent audience.",
+
+      "thumbnail" : "dataclips.png",
+      "downloads" : [
+        { "href"  : "/assets/dataclips.pdf",
+          "desc"  : "Paper"
+        },
+		{ "href"  : "https://www.youtube.com/watch?v=aNF0crMASRQ",
+          "desc"  : "Video"
+        },
+      ],
+    },
+	{ "key"       : "patentdc",
+      "title"     : "Authoring Data-Driven Videos with DataClips",
+      "year"      : "2015",
+      "authors"   : [
+		  "Nathalie Henry Riche",
+		  "Bongshin Lee",
+		  "Andrés Monroy-Hernández",
+		  "Fereshteh Amini"
+		],
+      "published" : "Patent Filed 10 Aug. 2015, US 20170046016 A1",
+      "level": "patent",
+
+      "thumbnail" : "patentdc.png",
+      "downloads" : [
+		{ "href"  : "http://www.google.com.gi/patents/US20170046016",
+          "desc"  : "More"
+        },
+      ],
+    },
+	
+	{ "key"       : "understandingdv",
+      "title"     : "Understanding Data Videos: Looking at Narrative Visualization through the Cinematography Lens",
+      "year"      : "2015",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Nathalie Henry Riche",
+		  "Bongshin Lee",
+		  "Christophe Hurter",
+		  "Pourang Irani"
+		],
+      "published" : "ACM Human Factors in Computing Systems (CHI)",
+      "level": "phd",
+      "abstract"  : "Data videos, motion graphics that incorporate visualizations
+		about facts, are increasingly gaining popularity as a means
+		of telling stories with data. However, very little is
+		systematically recorded about (a) what elements are featured
+		in data videos and (b) the processes used to create them. In
+		this article, we provide initial insights to build this
+		knowledge. We first report on a qualitative analysis of 50
+		professionally designed data videos, extracting and exposing
+		their most salient constituents. Second, we report on a series
+		of workshops with experienced storytellers from
+		cinematography, graphics design and screenplay writing.
+		We provided them with a set of data facts and visualizations
+		and observed them create storyboards for data videos. From
+		these exploratory studies, we derive broader implications for
+		the design of an authoring tool to enable a wide audience to
+		create data videos. Our findings highlight the importance of
+		providing a flexible tool supporting a non-linear creation
+		process and allowing users to iteratively go back to different
+		phases of the process.",
+      "thumbnail" : "understandingdv.png",
+      "downloads" : [	  
+		{ "href"  : "/assets/understandingdv.pdf",
+          "desc"  : "Paper"
+        },
+		{ "href"  : "https://www.youtube.com/watch?v=0q_VdW5R-Uk",
+          "desc"  : "Video"
+        },
+		{ "href"  : "http://hci.cs.umanitoba.ca/Publications/details/data-videos",
+          "desc"  : "More"
+        },
+      ],
+    },
+	{ "key"       : "stv",
+      "title"     : "The Impact of Interactivity on Comprehending 2D and 3D Visualizations of Movement Data",
+      "year"      : "2014",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Sébastien Rufiange",
+		  "Zahid Hossain",
+		  "Quentin Ventura",
+		  "Pourang Irani",
+		  "Michael J. McGuffin"
+		],
+      "published" : "IEEE transactions on visualization and computer graphics (TVCG)",
+      "level": "phd",
+      "abstract"  : "GPS, RFID, and other technologies have made it increasingly common to track the 
+		positions of people and objects over time as they move through 2-dimensional spaces. Visualizing 
+		such spatio-temporal movement data is challenging because each person or object involves three 
+		variables (two spatial variables as a function of the time variable), and simply plotting the data 
+		on a 2D geographic map can result in overplotting and occlusion that hides details. This also 
+		makes it difficult to understand correlations between space and time. Software such as GeoTime 
+		can display such data with a 3-dimensional visualization, where the 3rd dimension is used for time. 
+		This allows for the disambiguation of spatially overlapping trajectories, and in theory, should 
+		make the data clearer. However, previous experimental comparisons of 2D and 3D visualizations 
+		have so far found little advantage in 3D visualizations, possibly due to the increased complexity 
+		of navigating and understanding a 3D view. We present a new controlled experimental comparison of 
+		2D and 3D visualizations, involving commonly performed tasks that have not been tested before, 
+		and find advantages in 3D visualizations for more complex tasks. In particular, we tease out the 
+		effects of various basic interactions and find that the 2D view relies significantly on scrubbing 
+		the timeline, whereas the 3D view relies mainly on 3D camera navigation. Our work helps to improve 
+		understanding of 2D and 3D visualizations of spatio-temporal data, particularly with respect to interactivity.",
+      "thumbnail" : "stv.png",
+      "downloads" : [	  
+		{ "href"  : "http://hci.cs.umanitoba.ca/assets/publication_files/2013-TVCG-STV.compressed.pdf",
+          "desc"  : "Paper"
+        },
+		{ "href"  : "http://hci.cs.umanitoba.ca/Publications/details/stv-paper",
+          "desc"  : "More"
+        },
+      ],
+    },
+	{ "key"       : "crisismap",
+      "title"     : "Revisiting Crisis Maps with Geo-Temporal Tag Visualization",
+      "year"      : "2013",
+      "authors"   : [
+		  "Hina Aman",
+		  "Pourang Irani",
+		  "Fereshteh Amini"
+		],
+      "published" : "IEEE Pacific Visualization Symposium (PacificVis)",
+      "level": "phd",
+      "abstract"  : "Crowd sourced crisis mapping is a relatively new phenomenon and platform that enables 
+		  the collection and visualization of real-time crisis data submitted by users through social media tools 
+		  and cellular technologies. Crisis maps are generally used by both state and non-state actors for sense-making 
+		  and as a reference point for action. The current crisis map visualizations only show the location from which 
+		  documents such as reports or short messages have been generated. Such a limited representation fails to 
+		  immediately show important content, such as themes from a document and their changes over time. As a result, 
+		  sense-making becomes time-consuming and cognitively demanding. We present a new visualization approach, 
+		  Geo-Temporal Tag Visualization (GTViz), that treats the tags on the crowdsourced reports as spatio-temporal 
+		  textual datasets. GTViz embeds a map to represent the spatial properties of the dataset and compactly shows 
+		  the changes of key terms from the data source over time. We demonstrate the value of GTViz through two case 
+		  studies and a controlled user study.",
+      "thumbnail" : "crisismap.png",
+      "downloads" : [	  
+		{ "href"  : "http://hci.cs.umanitoba.ca/Publications/details/gtviz",
+          "desc"  : "More"
+        },
+      ],
+    },	
 
   ]
 
