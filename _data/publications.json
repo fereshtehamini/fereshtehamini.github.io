@@ -5,7 +5,6 @@
   "publications" : [ 
 
     { "key"       : "insituhealthfitness",
-      "bibtex"    : "",
       "title"     : "Data Representations for In-Situ Exploration of Health and Fitness Data",
       "date"      : "2012-11-01",
       "authors"   : [ "Daniel Müller (Limberger)", "Juri Engel", "Jürgen Döllner" ],
@@ -15,7 +14,7 @@
 
       "thumbnail" : "insituhealthfitness.png",
       "downloads" : [
-        { "href"  : "/assets/data/insituhealthfitness.pdf",
+        { "href"  : "/assets/insituhealthfitness.pdf",
           "desc"  : "PDF"
         },
       ],
