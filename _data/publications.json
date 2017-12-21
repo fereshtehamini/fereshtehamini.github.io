@@ -271,8 +271,100 @@
           "desc"  : "More"
         },
       ],
+    },
+	{ "key"       : "zigbee08",
+      "title"     : "Performance of IEEE 802.15.4 clusters with power management and key exchange",
+      "year"      : "2008",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Jelena Mišić",
+		  "Moazzam Khan",
+		  "Hossein Pourreza"
+		],
+      "published" : "Journal of Computer Science and Technology (JCST)",
+      "level": "msc",
+      "abstract"  : "The IEEE 802.15.4 specification is a recent low data rate wireless personal area network standard. While basic security services are provided for, there is a lack of more advanced techniques which are indispensable in modern personal area network applications. In addition, performance implications of those services are not known. In this paper, we describe a secure data exchange protocol based on the ZigBee specification and built on top of IEEE 802.15.4 link layer. This protocol includes a key exchange mechanism. We assume that all nodes are applying power management technique based on the constant event sensing reliability required by the coordinator. Power management generates random sleep times by every node which in average fairly distributes the sensing load among the nodes. Key exchange is initiated by a cluster coordinator after some given number of sensing packets have been received by the coordinator. We develop and integrate simulation model of the key exchange and power management technique into the cluster’s reliable sensing function. We evaluate the impact of security function and its periodicity on cluster performance.",
+      "thumbnail" : "zigbee08.png"
     },	
-
+	{ "key"       : "sybil",
+      "title"     : "Detection of Sybil Attack in Beacon Enabled IEEE 802.15.4 Networks",
+      "year"      : "2008",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Jelena Mišić",
+		  "Hossein Pourreza"
+		],
+      "published" : "Wireless Communications and Mobile Computing (IWCMC)",
+      "level": "msc",
+      "abstract"  : "In this paper, we describe a Sybil attack detection algorithm in IEEE 802.15.4 beacon enabled clusters. Our algorithm is based on received signal strength at the cluster coordinator. It considers the multi-path fading and shadowing and uses only two parties to detect the attacks. Using this technique, the detection of sensor displacement attack is also feasible. The results show high accuracy of attack detection and suggest parameter selection values to keep high level of performance. This lightweight scheme suites the IEEE 802.15.4 network nodes which have limitations in terms of battery energy, memory size and CPU speed.",
+      "thumbnail" : "sybil.png"
+    },
+	{ "key"       : "zigbeesec07",
+      "title"     : "On Security Attacks in Healthcare WSNS Implemented on 802.15.4 Beacon Enabled Clusters",
+      "year"      : "2007",
+      "authors"   : [
+		  "Jelena Mišić",
+		  "Fereshteh Amini",
+		  "Moazzam Khan"
+		],
+      "published" : "Consumer Communications and Networking (CCNC)",
+      "level": "msc",
+      "abstract"  : "In this paper, we analyze possible security attacks to the personal WSN carried on
+		the patient's body and its close vicinity. We assume that WSN is implemented using 802.15.
+		4 beacon enabled technology with a secure sensing, location and power management
+		blocks based on the Zig-Bee specification and built on top of 802.15. 4 link layer. We present
+		networking and security issues which can be used as a basis for security attacks.",
+      "thumbnail" : "zigbeesec07.png"
+    },
+	{ "key"       : "zigbee06",
+      "title"     : "Key Exchange in 802.15.4 Networks and its Performance Implications",
+      "year"      : "2006",
+      "authors"   : [
+		  "Moazzam Khan",
+		  "Fereshteh Amini",
+		  "Jelena Mišić"
+		],
+      "published" : "Mobile Sensor Networks (MSN)",
+      "level": "msc",
+      "abstract"  : "The IEEE 802.15.4 specification is a recent low data rate wireless personal area 
+	  network standard. While basic security services are provided for, there
+		is a lack of more advanced techniques which are indispensable in modern personal area network 
+		applications. In addition, performance implications of those
+		services are not known. In this paper, we describe a secure data exchange protocol based on the 
+		Zigbee specification and built on top of 802.15.4 link layer. This
+		protocol includes a key exchange mechanism. Then, we evaluate the overhead of
+		this scheme under different application scenarios. Initial results show the range
+		of network and traffic parameters wherein the proposed scheme is feasible to use.",
+      "thumbnail" : "zigbee06.png"
+    },
+	{ "key"       : "zigbeesec06",
+      "title"     : "The cost of security: Performance of Zigbee Key Exchange Mechanism in an 802.15.4 Beacon Enabled Cluster",
+      "year"      : "2006",
+      "authors"   : [
+		  "Moazzam Khan",
+		  "Fereshteh Amini",
+		  "Jelena Mišić",
+		  "Vojislav B. Mišić"
+		],
+      "published" : "Mobile Adhoc and Sensor Systems (MASS)",
+      "level": "msc",
+      "abstract"  : "The IEEE 802.15.4 specification is a recent low data rate wireless personal area network standard. While basic security services are provided for, there is a lack of more advanced techniques which are indispensable in modern personal area network applications. In addition, performance implications of those services are not known. In this paper, we describe a secure data exchange protocol based on the ZigBee specification and built on top of 802.15.4 link layer. This protocol includes a key exchange mechanism. Then, we evaluate the overhead of this scheme under different application scenarios. Initial results show the range of network and traffic parameters wherein the proposed scheme is feasible to use.",
+      "thumbnail" : "zigbeesec06.png"
+    },
+	{ "key"       : "zigbeekey06",
+      "title"     : "Performance Implications of Periodic Key Exchanges and Packet Integrity overhead in an 802.15.4 Beacon Enabled Cluster",
+      "year"      : "2006",
+      "authors"   : [
+		  "Jelena Mišić",
+		  "Fereshteh Amini",
+		  "Moazzam Khan"
+		  
+		],
+      "published" : "International Journal of Sensor Networks (IJSNet)",
+      "level": "msc",
+      "abstract"  : "In this paper, we describe and evaluate a secure data exchange protocol based on the Zigbee specification and built on top of 802.15.4 beacon enabled link layer. This protocol includes a key exchange mechanism and addition of Message Authenication Code to each packet. We have simulated key exchange protocol over physical and data link layers in IEEE 802.15.4 beacon enabled cluster. Since key distribution protocol requires downlink data transmissions which have complex implementation, its communication cost is high. Our results indicate that even for small cluster size, frequent key exchanges impose a serious performance burden on the data traffic. Therefore, the period for key exchanges (i.e. the degree of security protection) has to be traded for the cluster size and throughput.",
+      "thumbnail" : "zigbeekey06.png"
+    },
   ]
 
 }
