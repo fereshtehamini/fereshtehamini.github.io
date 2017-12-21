@@ -13,11 +13,60 @@
         "en" : "Research work on exploring the effects of different animation techniques designed to communicate various data changes in visualization dashboards."},
 
       "authors"   : [ "Robert Kosara" ],
-      "thumbnail" : "dataclips.png",
+      "thumbnail" : "animation.png",
       "downloads" : [
         { "href"  : "",
           "desc"  : "Project"
         } ],
     },
-     ]
+ 
+    { "key"       : "datavideoeval",
+      "title"     : "Evaluating Data Videos",
+      "date"      : "2017-01-05",
+      "status"    : "ongoing",
+     
+      "caption"   : {
+        "en" : "Multiple projects aimed at assessing different characteristics and feasures of data videos. In particular, we are studying the effects of animation and pictographic representations on viewer engagement and comprehension of the communicated information."},
+
+      "authors"   : [ "Pourang Irani", "Jason Leboe", "Nathalie Henry Riche", "Bongshin Lee" ],
+      "thumbnail" : "datavideoeval.png",
+      "downloads" : [
+        { "href"  : "",
+          "desc"  : "Project"
+        } ],
+    }, 
+ 
+    { "key"       : "zspace",
+      "title"     : "3D Stereo Visualizations of Movement Data",
+      "date"      : "2015-09-01",
+      "status"    : "ongoing",
+     
+      "caption"   : {
+        "en" : "The goal of this project is to investigate whether 3D Stereo visualization of movement data can be benefitial when performing common tasks. We have implemented space-time cube visualization of movement data in the Zspace system and plan to conduct a study that compares user performance comparing 3D and 3D stereo conditions."},
+
+      "authors"   : [ "Pourang Irani" ],
+      "thumbnail" : "zspace.png",
+      "downloads" : [
+        { "href"  : "",
+          "desc"  : "Project"
+        } ],
+    },	 
+ 
+    { "key"       : "sparkmap",
+      "title"     : "Visual Analytics for Structural Health Monitoring Data",
+      "date"      : "2013-09-01",
+      "status"    : "ongoing",
+     
+      "caption"   : {
+        "en" : "Design and implementation of visual analytics solutions for discovering and communicating insights from structural health monitoring data coming in from different sensors employed in physical structures."},
+
+      "authors"   : [ "Pourang Irani", "Gamal Mustapha" ],
+      "thumbnail" : "sparkmap.png",
+      "downloads" : [
+        { "href"  : "",
+          "desc"  : "Project"
+        } ],
+    },
+	
+	]
 }
