@@ -13,7 +13,7 @@
         "en" : "Research work on exploring the effects of different animation techniques designed to communicate various data changes in visualization dashboards."},
 
       "authors"   : [ "Robert Kosara" ],
-      "thumbnail" : "animation.png",
+      "thumbnail" : "dataclips.png",
       "downloads" : [
         { "href"  : "",
           "desc"  : "Project"
