@@ -1,0 +1,22 @@
+<div class="row text-xs-center">
+  <div class="col-xs">
+    <h1>{{ site.data.activities.heading.[page.lang] | escape }}</h1>
+  </div>
+</div>
+
+{% assign activities = site.data.activities.activities %}
+{% for t in activities %}
+<div class="row">
+	<div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+	  <fieldset>
+	  <legend>{{ t.title}}</legend>
+	  <span class="text-muted">
+		{{ t.content}}
+	    {% if t.link %} |
+		  <a href="{{ t.link }}">More</a>
+		{% endif %}</span>
+	  </fieldset>
+	</div>
+</div>
+<br>
+{% endfor %}

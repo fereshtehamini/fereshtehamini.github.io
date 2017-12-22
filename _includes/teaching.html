@@ -14,11 +14,11 @@
 
   <div class="col-md-9">
     <h5>{{ t.title | escape }}</h5>
-    <p><span class="text-muted">{{ t.abstract | escape }}
-    {% if t.downloads %} |
+    <p><span class="text-muted">{{ t.abstract | escape }}</span>
+    {% if t.downloads %}
     {% for download in t.downloads %}
-      <a href="{{ download.href }}"><b>{{ download.desc | escape }}</b></a>{% if download != t.downloads.last %}, {% endif %}{% endfor %}
-    {% endif %}</span></p>
+      <div><a href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != t.downloads.last %}, {% endif %}{% endfor %}
+    {% endif %}</div></p>
   </div>
 
 </div>

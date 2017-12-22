@@ -1,0 +1,28 @@
+{ 
+  "heading" : {
+    "en" : "Activities & Awards"},
+
+  "activities" : [
+
+	  { "title"     : "Program Committee",
+		"content"   : "Interactive Surfaces and Spaces Conference (ACM ISS 2017)",
+		"link"		: "https://iss2017.acm.org/organization/program_committee/"
+	  },
+	  { "title"     : "Reviewing",
+		"content"   : "IEEE InfoVis (2013, 2014, 2015, 2016, 2017), IEEE VAST (2015, 2016, 2017), IIEEE TVCG (2015, 2016, 2017), EuroVis (2014), ACM CHI (2014, 2015, 2016), ACM TOCHI (2016), UIST (2015, 2017), INTERACT(2017), MobileHCI(2012, 2014, 2015)"
+	  },
+	  {  "title"    : "Memberships",
+		"content"   : "ACM, IEEE"
+	  },
+	  { "title"     : "Student Volunteer",
+		"content"   : "ACM CHI Conference (2015)"
+	  },	  
+	  {  "title"    : "Press",
+		"content"   : "Interviewed by UM Today, The Magazine, Fall 2016 Issue",
+		"link"		: "http://news.umanitoba.ca/fereshteh-amini/"
+	  },	  
+	  {  "title"    : "Awards",
+		"content"   : "Travel funding for attending Dagstuhl Seminar on Data Storytelling, Travel grant for attending Doctoral Consortium at IEEE Vis (InfoVis 2015), Faculty of Science Graduate Student Scholarship from University of Manitoba, More than 10 travel grants from University of Manitoba (Faculty of Graduate Studies, Faculty of Science, Graduate Student Association, and Department of Computer Science), Graduate Student Award from Department of Computer Science at University of Manitoba"
+	  }
+	]
+}
