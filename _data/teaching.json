@@ -1,159 +1,79 @@
 {
   "heading" : {
-    "en" : "Teaching",
-    "de" : "Lehre" },
+    "en" : "Teaching" },
 
-  "terms" : [
-
-  { "term" : "2017 : Summer Term",
-    "courses" : 
-    [ ]
-  },
-  { "term" : "2016/17 : Winter Term",
-    "courses" : 
-    [ { "course" : "Advanced Programming in C++",
-        "type"   : "Lecture (MA)",
-        "role"   : "Tutor & Co-Lecturer"
+  "courses" : [
+     { "title" : "MIDS w209 - Information Visualization and Communication",
+		"abstract"	 : "Scheduled to teach the course at UC Berkeley's Information School in the upcoming semester.",
+        "type"   : "Lecturer",
+        "date"   : "Winter 2018",
+		"downloads" : [
+			{
+				"href"  : "https://www.ischool.berkeley.edu/courses/datasci/209",
+				"desc"  : "More"
+			}
+		]
       },
-      { "course" : "Methods and Techniques of Information Visualization",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
+     { "title" : "COMP 1020 - Introductory Computer Science 2",
+		"abstract"	 : "As a sessional instructor/lecturer at the CS department of University of Manitoba, I taught and gave lectures on 
+						topics related to advanced JAVA programming. 
+						In addition to handling large classes of about 80 students, I worked to improve the course by updating 
+						the curriculum and improving the lecture slides and by re-writing student assignment instructions to clarify areas 
+						that posed misunderstandings.",
+        "type"   : "Instructor",
+        "date"   : "Winter 2016",
+		"downloads" : [
+			{
+				"href"  : "https://www.cs.umanitoba.ca/coursedescrip/comp1020.pdf",
+				"desc"  : "Syllabus"
+			}
+		]
       },
-      { "course" : "Real-time Monitoring of Massive File Systems",
-        "type"   : "Project (MA)",
-        "role"   : "Supervisor"
-      } ]
-  },
-  { "term" : "2016 : Summer Term",
-    "courses" : 
-    [ { "course" : "Computergraphics II",
-        "type"   : "Lecture (BA)",
-        "role"   : "Tutor & Co-Lecturer"
+	       
+	  { "title" : "COMP 3020 -  Human-Computer Interaction 1",
+		"abstract"	 : "As a teaching assistant/marker at the CS department of University of Manitoba, I helped the course instructors through 
+						various tasks including answering student questions, invigilating exams, and marking projects and assignments.",
+        "type"   : "Instructor",
+        "date"   : "Fall 2015",
+		"downloads" : [
+			{
+				"href"  : "https://www.cs.umanitoba.ca/coursedescrip/comp3020.pdf",
+				"desc"  : "Syllabus"
+			}
+		]
       },
-      { "course" : "Methods and Techniques of Software Visualization",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
+	       
+	  { "title" : "ACS-3909 - ADVANCED INTERNET PROGRAMMING",
+		"abstract"	 : "I was invited back in the following term (winter 2010) to teach advance internet programming course at the University of Winnipeg's 
+						Applied Computer Science department. This course provided students with a thorough knowledge of server-side web programming. Topics included 
+						n-tiered systems, session tracking, interfaces and stereotypes, dynamic web page design, database connections, and XML processing. 
+						Students gained considerable knowledge and experience by learning important features needed for e-commerce, applying advanced 
+						web application techniques, and utilizing web databases.",
+        "type"   : "Instructor",
+        "date"   : "Winter 2010",
+		"downloads" : [
+			{
+				"href"  : "http://www.acs.uwinnipeg.ca/undergraduate/undergraduate_courses/undergraduate_courses_outlines",
+				"desc"  : "Syllabus"
+			}
+		]
       },
-      { "course" : "Introduction to Visual Analytics",
-        "type"   : "Seminar (BA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Massive Information Mining for Software Analytics",
-        "type"   : "Project (BA)",
-        "role"   : "Supervisor"
-      } ]
-  },
-  { "term" : "2015/16 : Winter Term",
-    "courses" : 
-    [ { "course" : "Systems Engineering for Software Analytics",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      } ]
-  },
-  { "term" : "2015 : Summer Term",
-    "courses" : 
-    [ { "course" : "Automated Visual Software Analytics",
-        "type"   : "Lecture (massive open online course)",
-        "role"   : "Tutor" 
-      },
-      { "course" : "Visualization of System Evolution",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Programming Technique II",
-        "type"   : "Lecture (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Software Analysis and Visualization",
-        "type"   : "Project (BA)",
-        "role"   : "Supervisor"
-      } ]
-  },
-  { "term" : "2014/15 : Winter Term",
-    "courses" : 
-    [ { "course" : "Visualization for Interactive Software Analytics",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Introduction to Programming C++",
-        "type"   : "Lecture (MA Geo)",
-        "role"   : "Lecturer"
-      },
-      { "course" : "Game Programming",
-        "type"   : "Lecture/Seminar (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Introduction to 3D Computergraphics",
-        "type"   : "Youth Academy",
-        "role"   : "Lecturer"
-      } ]
-  },
-  { "term" : "2014 : Summer Term",
-    "courses" : 
-    [ { "course" : "Information Visualization",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Graphics Programming with OpenGL and C++",
-        "type"   : "Lecture/Seminar (BA)",
-        "role"   : "Tutor & Lecturer"
-      },
-      { "course" : "Software Analysis and Visualization",
-        "type"   : "Project (BA)",
-        "role"   : "Supervisor"
-      } ]
-  },
-  { "term" : "2013/14 : Winter Term",
-    "courses" : 
-    [ { "course" : "Software Analytics",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Game Programming",
-        "type"   : "Lecture/Seminar (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Computergraphics II",
-        "type"   : "Lecture (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Introduction to 3D Computergraphics",
-        "type"   : "Youth Academy",
-        "role"   : "Lecturer"
-      } ]
-  },
-  { "term" : "2013 : Summer Term",
-    "courses" : 
-    [ { "course" : "Software Visualization Techniques",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Graphics Programming with OpenGL and C++",
-        "type"   : "Lecture/Seminar (BA)",
-        "role"   : "Tutor & Lecturer"
-      },
-      { "course" : "Computergraphics I",
-        "type"   : "Lecture (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      } ]
-  },
-  { "term" : "2012/13 : Winter Term",
-    "courses" : 
-    [ { "course" : "Concepts and Techniques for 3D Visualization",
-        "type"   : "Seminar (MA)",
-        "role"   : "Tutor"
-      },
-      { "course" : "Game Programming",
-        "type"   : "Lecture/Seminar (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Computergraphics II",
-        "type"   : "Lecture (BA)",
-        "role"   : "Tutor & Co-Lecturer"
-      },
-      { "course" : "Introduction to 3D Computergraphics",
-        "type"   : "Youth Academy",
-        "role"   : "Lecturer"
-      } ]
-  } ]
+	       
+	  { "title" : "ACS-2909 - INTERNET PROGRAMMING",
+		"abstract"	 : "I was hired as a sessional instructor/lecturer at the University of Winnipeg's Applied Computer Science department to teach introductory 
+						internet programming concepts in fall 2009. 
+						This course provided students with an overview of Internet and Web programming, development tools, resources, utilities, multimedia, 
+						and security issues. Students gained hands-on experience in Javascript, Rich Internet Applications (RIAs), Web services, Design Patterns 
+						and Mobile Application Development.",
+        "type"   : "Instructor",
+        "date"   : "Fall 2009",
+		"downloads" : [
+			{
+				"href"  : "http://www.acs.uwinnipeg.ca/undergraduate/undergraduate_courses/undergraduate_courses_outlines",
+				"desc"  : "Syllabus"
+			}
+		]
+      }		
+	  
+	],
 }

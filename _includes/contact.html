@@ -11,18 +11,18 @@
     <label class="col-sm-3 col-form-label text-sm-right text-xs-left">{{ contact.email_label.[page.lang] }}:</label>
     <div class="col-sm-9">
       <p class="form-control-static mb-0"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
-      <p class="form-control-static text-muted">
+      <!--<p class="form-control-static text-muted">
       {{ contact.alternative_label.[page.lang] }}:  
       {% for email in contact.alternative_emails %}{{ email }}{% if email != contact.alternative_emails.last %}, {% endif %}
       {% endfor %}
-      </p>
+      </p>-->
     </div>
   </div>
 
   <div class="form-group row mb-0">
     <label class="col-sm-3 col-form-label text-sm-right text-xs-left">{{ contact.location_label.[page.lang] }}:</label>
     <div class="col-sm-9">
-      <p class="form-control-static"><a href="tel:{{ contact.location[page.lang] | replace : ' ', '' }}">{{ contact.location[page.lang] }}</a></p>
+      <p class="form-control-static">{{ contact.location }}</p>
     </div>
   </div>
 

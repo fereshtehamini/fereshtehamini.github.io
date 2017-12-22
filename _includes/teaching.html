@@ -4,17 +4,22 @@
   </div>
 </div>
 
-{% assign terms = site.data.teaching.terms | sort:"term" %} 
-{% for t in terms reversed %}
-  
-  {% capture i %}{% cycle 0, 1 %}{% endcapture %}
-  {% if i == '0' %}<div class="row flex-items-xs-center">{% endif %}
+{% assign courses = site.data.teaching.courses %}
+{% for t in courses %}
+<div class="row{% if t != courses.last %} mt-0{% endif %}">
 
-  <div class="col-md-5 {% cycle 'text-md-right text-xs-left', '' %} col-sm-10">
-    <h5>{{ t.term | escape }}</h5>
-    {% for c in t.courses %}
-    <p>{{ c.course | escape }}<br><span class="text-muted">{{ c.type | escape }}, {{ c.role | escape }}</span></p>
-    {% endfor %}
+  <div class="col-md-3 text-md-right">
+    {{ t.date | date : "%x" }}
   </div>
-  {% if i == '1' || t != terms.first %}</div>{% endif %}
+
+  <div class="col-md-9">
+    <h5>{{ t.title | escape }}</h5>
+    <p><span class="text-muted">{{ t.abstract | escape }}
+    {% if t.downloads %} |
+    {% for download in t.downloads %}
+      <a href="{{ download.href }}"><b>{{ download.desc | escape }}</b></a>{% if download != t.downloads.last %}, {% endif %}{% endfor %}
+    {% endif %}</span></p>
+  </div>
+
+</div>
 {% endfor %}
