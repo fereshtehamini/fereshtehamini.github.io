@@ -3,9 +3,15 @@
     "en" : "Recent News"},
 
   "news" : [
-      {
-		"title": "Will be teaching at UC Berkeley Information School in winter 2018",
-		"abstract": "Information Visualization and Communication course",
+          {
+		"title": "Selected as the receipent of NSERC Postdoctoral Fellowship (PDF)",
+		"abstract": "Each year the Research Council of Canada (NSERC) selects applicants based on research, communication, interpersonal, and leadership abilities.",
+		"type": "News",
+		"date": "2018-01-29 00:00:00",
+	  },	  
+          {
+		"title": "Started as a lecturer at UC Berkeley Information School",
+		"abstract": "Teaching Information Visualization and Communication course",
 		"type": "News",
 		"date": "2018-01-02 00:00:00",
 	  },
