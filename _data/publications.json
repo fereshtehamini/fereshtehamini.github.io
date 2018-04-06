@@ -3,7 +3,41 @@
     "en" : "Publications"},
 
   "publications" : [ 
+    { "key"       : "dvevaluation",
+      "title"     : "Hooked on Data Videos: Assessing the Effect of Animation and Pictographs on Viewer Engagement",
+      "year"      : "2018",
+      "authors"   : [
+		  "Fereshteh Amini",
+		  "Nathalie Henry Riche",
+		  "Bongshin Lee",
+		  "Jason.Leboe-McGowan",
+		  "Pourang Irani"
+		],
+      "published" : "International Conference on Advanced Visual Interfaces (AVI)",
+      "level": "phd",
+      "abstract"  : 	"Pictographic representations and animation techniques are commonly
+			incorporated into narrative visualizations such as data videos.
+			General belief is that these techniques may enhance the viewer
+			experience, thus appealing to a broad audience and enticing the
+			viewer to consume the entire video. However, no study has formally
+			assessed the effect of these techniques on data insight communication
+			and viewer engagement. In this paper, we first propose a
+			scale-based questionnaire covering five factors of viewer engagement
+			we identified from multiple application domains such as game
+			design and marketing. We then validate this questionnaire through
+			a crowdsourcing study on Amazon’s Mechanical Turk to assess
+			the effect of animation and pictographs in data videos. Our results
+			reveal that each technique has an effect on viewer engagement,
+			impacting different factors. In addition, insights from these studies
+			lead to design considerations for authoring engaging data videos.",
 
+      "thumbnail" : "dveval.png",
+      "downloads" : [
+        { "href"  : "https://sites.google.com/dis.uniroma1.it/avi2018/",
+          "desc"  : "Paper"
+        },
+      ],
+    },
     { "key"       : "insituhealthfitness",
       "title"     : "Data Representations for In-Situ Exploration of Health and Fitness Data",
       "year"      : "2017",
@@ -46,7 +80,7 @@
 		  "Christina Elmer",
 		  "Benjamin Wiederkehr"
 		],
-      "published" : "Chapter to appear in Data-Driven Storytelling, a forthcoming book edited by Sheelagh Carpendale, Nicholas Diakopoulos, Christophe Hurter, and Nathalie Henry Riche",
+      "published" : "Chapter in Data-Driven Storytelling, a book edited by Sheelagh Carpendale, Nicholas Diakopoulos, Christophe Hurter, and Nathalie Henry Riche",
       "level": "phd",
       "abstract"  : "The study of data-driven storytelling requires specific guidelines, metrics, 
 	  and methodologies reflecting their different complex aspects. Evaluation is not only essential 
@@ -61,7 +95,7 @@
 
       "thumbnail" : "datastorytellingevaluation.png",
       "downloads" : [
-        { "href"  : "http://drops.dagstuhl.de/opus/volltexte/2016/5821/pdf/dagrep_v006_i002_p001_s16061.pdf",
+        { "href"  : "https://books.google.ca/books?id=bnxTDwAAQBAJ&lpg=PP1&dq=taylor%20and%20francis%20Data-Driven%20Storytelling&pg=PP1#v=onepage&q=taylor%20and%20francis%20Data-Driven%20Storytelling&f=false",
           "desc"  : "Report"
         },
       ],
