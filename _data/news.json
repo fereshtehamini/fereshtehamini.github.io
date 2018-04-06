@@ -3,6 +3,11 @@
     "en" : "Recent News"},
 
   "news" : [
+	  {
+		"title": "Joined Microsoft, Redmond as a Data Scientist!",
+		"type": "News",
+		"date": "2018-04-02 00:00:00",
+	  },
           {
 		"title": "Selected as the receipent of NSERC Postdoctoral Fellowship (PDF)",
 		"abstract": "Each year the Research Council of Canada (NSERC) selects applicants based on research, communication, interpersonal, and leadership abilities.",
