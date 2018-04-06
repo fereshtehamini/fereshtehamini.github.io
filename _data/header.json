@@ -6,9 +6,10 @@
   	"en" : "A Data Scientist."},
 
   "about" : {
-	"en" :	"I am a Data Scientist at Microsoft, Redmond, where I research and design information visualizations to extract and 
-	  	communicate data-driven insights. I am also a lecturer at UCBerkeley Information School, where I teach <i>Information 
-	  	Visualization and Communication</i> course as part of the Data Science program.
+	"en" :	"
+	  	I am a Data Scientist at Microsoft, Redmond, where I research and design information visualizations to extract and 
+	  	communicate data-driven insights. I am also a lecturer at UCBerkeley Information School, where I teach Information 
+	  	Visualization and Communication course as part of the Data Science program.
 	  	<p>
 	  	During my PhD at the University of Manitoba in Canada, I worked as a research assistant in the Human-Computer Interaction Lab 
 	  	under the supervision of <a href='http://www.cs.umanitoba.ca/~irani/'>Dr. Pourang Irani</a>. 
