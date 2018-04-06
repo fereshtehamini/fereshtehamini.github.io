@@ -7,6 +7,7 @@
 
   "about" : {
 	"en" :	"
+	  	<p>
 	  	I am a Data Scientist at Microsoft, Redmond, where I research and design information visualizations to extract and 
 	  	communicate data-driven insights. I am also a lecturer at UCBerkeley Information School, where I teach Information 
 	  	Visualization and Communication course as part of the Data Science program.
@@ -20,7 +21,8 @@
 		Tableau Inc. working with <a href='https://research.tableau.com/user/robert-kosara'>Dr. Robert Kosara</a> in 2017, 
 		and Microsoft Research working with <a href='https://www.microsoft.com/en-us/research/people/nath/'>Dr. Nathalie Hery Riche</a> 
 		in 2016. Prior to starting my PhD I worked at <a href='http://www.iders.ca/'>IDERS Inc. (GE Transportation)</a>, where I worked  
-	  	as a user interface developer and in a team lead position for more than 4 years."},
+	  	as a user interface developer and in a team lead position for more than 4 years."
+	},
 
 	
   "picture" : "bio-photo.png"
