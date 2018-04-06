@@ -3,18 +3,23 @@
   	"en" : "Hi, I'm Fereshteh Amini,"},
 
   "lead" : { 
-  	"en" : "An information visualization researcher."},
+  	"en" : "A Data Scientist."},
 
   "about" : {
-	"en" :	"I am a Ph.D. candidate at the <a href='http://www.cs.umanitoba.ca'>Department of Computer Science</a>, <a href='http://www.umanitoba.ca'>University of Manitoba</a>.
-			I work as a research assistant in the Human-Computer Interaction Lab under the supervision of <a href='http://www.cs.umanitoba.ca/~irani/'>Dr. Pourang Irani</a>. 
-			I design and conduct quantitative and qualitative research on information visualization tools and techniques for data storytelling to broad audiences.
-			Currently, I am finishing up my thesis and getting ready to defend while working as a researcher/lecturer at UC Berkeley. 
-			<p>
-			I have had the chance to work with several great researchers around the world and have completed research internships at 
-			Tableau Inc. working with <a href='https://research.tableau.com/user/robert-kosara'>Dr. Robert Kosara</a> in 2017, 
-			and Microsoft Research working with <a href='https://www.microsoft.com/en-us/research/people/nath/'>Dr. Nathalie Hery Riche</a> 
-			in 2016. Prior to starting my PhD I worked at <a href='http://www.iders.ca/'>IDERS Inc. (GE Transportation)</a>, where I worked  as a user interface developer and in a team lead position for more than 4 years."},
+	"en" :	"I am a Data Scientist at Microsoft, Redmond, where I research and design information visualizations to extract and 
+	  	communicate data-driven insights. I am also a lecturer at UCBerkeley Information School, where I teach <i>Information 
+	  	Visualization and Communication</i> course as part of the Data Science program.
+	  	<p>
+	  	During my PhD at the University of Manitoba in Canada, I worked as a research assistant in the Human-Computer Interaction Lab 
+	  	under the supervision of <a href='http://www.cs.umanitoba.ca/~irani/'>Dr. Pourang Irani</a>. 
+		I designed and conducted quantitative and qualitative research on information visualization tools and techniques for 
+	  	data storytelling to broad audiences. 
+		<p>
+		I have had the chance to work with several great researchers around the world and have completed research internships at 
+		Tableau Inc. working with <a href='https://research.tableau.com/user/robert-kosara'>Dr. Robert Kosara</a> in 2017, 
+		and Microsoft Research working with <a href='https://www.microsoft.com/en-us/research/people/nath/'>Dr. Nathalie Hery Riche</a> 
+		in 2016. Prior to starting my PhD I worked at <a href='http://www.iders.ca/'>IDERS Inc. (GE Transportation)</a>, where I worked  
+	  	as a user interface developer and in a team lead position for more than 4 years."},
 
 	
   "picture" : "bio-photo.png"
