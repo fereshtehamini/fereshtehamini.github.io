@@ -4,31 +4,9 @@
 
   "courses" : [
     { "title" : "MIDS w209 - Information Visualization and Communication",
-		"abstract"	 : "Scheduled to teach the course at UC Berkeley's Information School in the upcoming semester.",
-        "type"   : "Lecturer",
-        "date"   : "Fall 2018",
-		"downloads" : [
-			{
-				"href"  : "https://www.ischool.berkeley.edu/courses/datasci/209",
-				"desc"  : "More"
-			}
-		]
-      },
-	  { "title" : "MIDS w209 - Information Visualization and Communication",
 		"abstract"	 : "Data Science program at UC Berkeley's Information School.",
         "type"   : "Lecturer",
-        "date"   : "Summer 2018",
-		"downloads" : [
-			{
-				"href"  : "https://www.ischool.berkeley.edu/courses/datasci/209",
-				"desc"  : "More"
-			}
-		]
-      },
-    { "title" : "MIDS w209 - Information Visualization and Communication",
-		"abstract"	 : "Data Science program at UC Berkeley's Information School.",
-        "type"   : "Lecturer",
-        "date"   : "Spring 2018",
+        "date"   : "Spring 2018 - NOW",
 		"downloads" : [
 			{
 				"href"  : "https://www.ischool.berkeley.edu/courses/datasci/209",
