@@ -4,6 +4,12 @@
 
   "news" : [
 	  {
+		"title": "Our paper 'Dear Pictograph: Investigate the Role of Personalization and Immersion for Consuming and Enjoying Visualizations' was accepted for CHI2020",
+		"abstract": "Proceedings of the SIGCHI conference on human factors in computing systems",
+		"type": "News",
+		"date": "2020-01-01 00:00:00",
+	  },
+	  {
 		"title": "Presented our paper 'Hooked on data videos: assessing the effect of animation and pictographs on viewer engagement' at the AVI2018, Grosseto, Italy",
 		"abstract": "Proceedings of the 2018 International Conference on Advanced Visual Interfaces",
 		"type": "News",
