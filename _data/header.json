@@ -8,16 +8,15 @@
   "about" : {
 	"en" :	"
 	  	<p>
-	  	I am a Data Visualization Specialist at Microsoft in Redmond, where I research and design information visualizations to extract and 
-	  	communicate data-driven insights. I am also a lecturer at UCBerkeley Information School, where I teach Information 
-	  	Visualization and Communication course as part of the Data Science program.
+	  	I am a senior applied data scientist at Microsoft Corp. I study different factors impacting productivity and how people conduct work. 
+	  	I also design and research information visualization and storytelling tools, techniques, and approaches for visual communication of data insights to broad audiences. 
 	  	<p>
-	  	During my PhD at the University of Manitoba in Canada, I worked as a research assistant in the Human-Computer Interaction Lab 
-	  	under the supervision of <a href='http://www.cs.umanitoba.ca/~irani/'>Dr. Pourang Irani</a>. 
-		I designed and conducted quantitative and qualitative research on information visualization tools and techniques for 
-	  	data storytelling to broad audiences. 
+	  	I am also a lecturer at UCBerkeley Information School, where I teach a course on Information 
+	  	Visualization and Communication as part of the MIDS (Master In Data Science) program.
 		<p>
-		I have had the chance to work with several great researchers around the world and have completed research internships at 
+		During my PhD studies at the University of Manitoba, I have had the chance to collaborate with several great researchers around the world and have published my research 
+	  	in leading venues in Human-Computer Interaction and Information Visualization.
+	  	I have had the chance to work with several great researchers around the world and have completed research internships at 
 		Tableau Inc. working with <a href='https://research.tableau.com/user/robert-kosara'>Dr. Robert Kosara</a> in 2017, 
 		and Microsoft Research working with <a href='https://www.microsoft.com/en-us/research/people/nath/'>Dr. Nathalie Hery Riche</a> 
 		in 2016. Prior to starting my PhD I worked at <a href='http://www.iders.ca/'>IDERS Inc. (GE Transportation)</a>, where I worked  
@@ -27,3 +26,4 @@
 	
   "picture" : "bio-photo.png"
 }
+
